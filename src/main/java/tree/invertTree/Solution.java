@@ -13,28 +13,27 @@ import java.util.Queue;
 public class Solution {
 
     public TreeNode invertTree(TreeNode root) {
-
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
         if (root == null) {
-            return root;
+            return null;
         }
-        queue.add(root);
-        while (!queue.isEmpty()) {
-            int count = queue.size();
-            while (count > 0) {
-                TreeNode node = queue.poll();
-                TreeNode left = node.left;
-                node.left = node.right;
-                node.right = left;
-                if (node.left != null) {
-                    queue.add(node.left);
-                }
-                if (node.right != null) {
-                    queue.add(node.right);
-                }
-                count--;
+
+        if (!(root.left == null && root.right == null)) {
+            TreeNode left = root.left;
+            TreeNode right = root.right;
+
+            root.left = right;
+            root.right = left;
+
+            if (root.left != null) {
+                invertTree(root.left);
             }
+
+            if (root.right != null) {
+                invertTree(root.right);
+            }
+
         }
+
         return root;
     }
 
