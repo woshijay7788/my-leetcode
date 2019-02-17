@@ -35,7 +35,7 @@ public class Solution {
      */
     public boolean isSymmetric1(TreeNode root) {
 
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         queue.add(root);
         while (!queue.isEmpty()) {
