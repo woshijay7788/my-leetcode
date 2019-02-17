@@ -1,4 +1,4 @@
-package tree.test10;
+package tree.postorder;
 
 import tree.Node;
 import java.util.ArrayList;
