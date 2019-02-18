@@ -1,4 +1,4 @@
-package test3;
+package reverse;
 
 /**
  * @Description:
@@ -28,6 +28,9 @@ public class Solution {
         System.out.println(String.valueOf(1));
 
         System.out.println(Integer.MAX_VALUE % 10);
+        System.out.println(Integer.MIN_VALUE % 10);
         System.out.println(10 / 120);
+        System.out.println(20 % 10);
+        System.out.println(new Solution().reverse(111));
     }
 }
