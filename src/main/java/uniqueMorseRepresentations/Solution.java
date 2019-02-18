@@ -1,4 +1,4 @@
-package test11;
+package uniqueMorseRepresentations;
 
 import java.util.HashSet;
 

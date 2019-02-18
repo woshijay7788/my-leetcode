@@ -1,4 +1,4 @@
-package test17;
+package findWords;
 
 import java.util.ArrayList;
 import java.util.List;

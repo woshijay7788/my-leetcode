@@ -1,4 +1,4 @@
-package test7;
+package numJewelsInStones;
 
 /**
  * @Description:

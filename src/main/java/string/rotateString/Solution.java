@@ -1,4 +1,4 @@
-package test14;
+package string.rotateString;
 
 import java.util.Arrays;
 

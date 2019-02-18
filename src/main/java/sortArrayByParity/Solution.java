@@ -1,4 +1,4 @@
-package test12;
+package sortArrayByParity;
 
 import java.util.LinkedList;
 

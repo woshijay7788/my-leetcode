@@ -1,4 +1,4 @@
-package test10;
+package repeatedNTimes;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package test8;
+package numUniqueEmails;
 
 import java.util.HashSet;
 import java.util.Set;

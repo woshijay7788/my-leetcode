@@ -1,4 +1,4 @@
-package test16;
+package canWinNim;
 
 /**
  * @Description:
